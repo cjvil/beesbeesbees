@@ -5,3 +5,5 @@ var ForagerBee = function() {
   this.color = 'yellow';
 };
 
+ForagerBee.prototype = Object.create(Bee.prototype);
+
