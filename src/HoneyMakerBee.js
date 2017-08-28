@@ -4,3 +4,4 @@ var HoneyMakerBee = function() {
   this.job = 'make honey';
 };
 
+HoneyMakerBee.prototype = Bee.prototype;
