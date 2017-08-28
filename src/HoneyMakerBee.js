@@ -5,3 +5,4 @@ var HoneyMakerBee = function() {
 };
 
 HoneyMakerBee.prototype = Bee.prototype;
+HoneyMakerBee.constructor = HoneyMakerBee;
